@@ -1,12 +1,12 @@
 # 💼 Laboratorio 3: Registro de Aspirantes con PHP
 
-PHP es un lenguaje de programación utilizado para desarrollar aplicaciones web dinámicas y procesar información del lado del servidor. En esta práctica se desarrolló un formulario de registro de aspirantes utilizando PHP, HTML5 y Bootstrap, aplicando validaciones para recibir, procesar y mostrar los datos ingresados por el usuario.
+PHP se utiliza principalmente para crear páginas web dinámicas, es decir, páginas que cambian en función de la interacción del usuario o de los datos almacenados en bases de datos. A diferencia de lenguajes como JavaScript, que funcionan en el navegador, PHP se ejecuta en el servidor. Cuando un visitante solicita una página, el servidor interpreta el código PHP, genera el contenido en HTML y lo envía al navegador.
 
 Este repositorio contiene la solución de las actividades realizadas durante la práctica, permitiendo trabajar de manera práctica con formularios HTML, procesamiento de información mediante PHP, validación de datos, manejo de archivos y organización modular del código. Algunos de los temas que se realizaron son los siguientes:
 
 🔹 Creación y estructuración de formularios utilizando HTML5
 🔹 Implementación de etiquetas semánticas (`<header>`, `<main>`, `<section>`, `<footer>`)
-🔹 Uso de Bootstrap para mejorar la presentación y responsividad de la interfaz
+🔹 Uso de Bootstrap.
 🔹 Validación de los datos recibidos mediante PHP
 🔹 Validación de la edad del aspirante entre 18 y 70 años
 🔹 Estandarización de nombres y apellidos utilizando PHP
@@ -75,9 +75,7 @@ De esta manera se evita repetir el mismo código y se facilita el mantenimiento 
 
 ## 🚀 Conclusión
 
-Esta práctica me permitió comprender mejor cómo PHP puede utilizarse para procesar información enviada desde un formulario HTML. También aprendí a realizar validaciones del lado del servidor, trabajar con fechas, estandarizar información recibida y manejar archivos mediante `$_FILES`.
-
-Además, pude aplicar una estructura más organizada utilizando archivos `include`, Bootstrap y etiquetas semánticas de HTML5. El manejo de fotografías y la protección de la carpeta donde se almacenan también me ayudaron a entender la importancia de considerar la seguridad al desarrollar formularios que reciben archivos.
+Esta práctica me permitió comprender mejor cómo PHP puede utilizarse para procesar información enviada desde un formulario HTML. También aprendí a realizar validaciones del lado del servidor, trabajar con fechas, estandarizar información recibida y manejar archivos mediante `$_FILES`. Además, pude aplicar una estructura más organizada utilizando archivos `include`, Bootstrap y etiquetas semánticas de HTML5. El manejo de fotografías y la protección de la carpeta donde se almacenan también me ayudaron a entender la importancia de considerar la seguridad al desarrollar formularios que reciben archivos.
 
 ## 🧑‍💻 Datos del Estudiante
 
