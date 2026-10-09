@@ -169,41 +169,7 @@ Las imágenes forman parte de las evidencias visuales del proyecto y permiten mo
 
 Es importante distinguir entre las capturas de pantalla que documentan el laboratorio y las imágenes que el usuario carga mediante el formulario.
 
-### 7.1. Inserción de imágenes en el README
-
-Para insertar una imagen en Markdown se utiliza la siguiente sintaxis:
-
-```markdown
-![Descripción de la imagen](./Imagenes/nombre-de-la-imagen.png)
-```
-
-En este proyecto, por ejemplo, se utiliza:
-
-```markdown
-![Formulario de registro](./Imagenes/Formulario.png)
-```
-
-La ruta indica que la imagen se encuentra dentro de la carpeta `Imagenes`, ubicada en el directorio principal del repositorio.
-
-Para que la imagen se muestre correctamente en GitHub, es necesario que el archivo exista en esa ubicación y que también se encuentre incluido en el repositorio.
-
-### 7.2. Carga de imágenes en el sistema
-
-La carpeta `uploaded_files/` está destinada a almacenar las imágenes que se carguen mediante el sistema, si el formulario y el procesamiento incluyen esta funcionalidad.
-
-Cuando se implementa la carga de archivos, es importante comprobar el tipo y tamaño de la imagen, evitar nombres de archivo problemáticos y validar que la carpeta tenga los permisos necesarios.
-
-### 7.3. Modificación y eliminación de imágenes
-
-Si el sistema permite administrar imágenes después de cargarlas, las operaciones deben comprobarse de la siguiente manera:
-
-- **Insertar:** seleccionar y cargar una imagen mediante el formulario correspondiente.
-- **Modificar:** reemplazar la imagen existente o actualizar la información asociada, según la funcionalidad implementada.
-- **Eliminar:** retirar la imagen seleccionada y comprobar que deje de aparecer en el sistema.
-
-Estas operaciones deben probarse por separado. La modificación o eliminación de imágenes solo debe documentarse como una función disponible si está implementada en el código del proyecto.
-
-## 8. Controles utilizados
+## 7. Controles utilizados
 
 Los controles del formulario permiten capturar la información que necesita el sistema. Entre los controles HTML que se pueden utilizar en un formulario de registro se encuentran:
 
@@ -226,7 +192,7 @@ Las validaciones permiten reducir los errores durante el registro. Dependiendo d
 
 Las validaciones del navegador no sustituyen las comprobaciones del lado del servidor. Por eso, los datos también deben revisarse en PHP antes de procesarlos.
 
-## 9. Pruebas realizadas
+## 8. Pruebas realizadas
 
 Para comprobar el funcionamiento del proyecto, se consideran las siguientes pruebas:
 
@@ -240,21 +206,20 @@ Para comprobar el funcionamiento del proyecto, se consideran las siguientes prue
 | Probar la carga de una imagen | El archivo se procesa correctamente si la función está implementada. |
 | Probar la modificación o eliminación | La operación se realiza correctamente si está implementada. |
 
-## 10. Resultados obtenidos
+## 9. Resultados obtenidos
 
 Con la realización de este laboratorio se trabaja con la estructura de una aplicación web, el uso de formularios HTML y el procesamiento de información mediante PHP.
 
 Las capturas incluidas permiten documentar el formulario y los resultados obtenidos durante las pruebas. Además, la organización del proyecto facilita identificar la función de los archivos principales y mantener separadas las evidencias visuales del código fuente.
 
-## 11. Autor
 
-- **Estudiante:** Vasti Legaspi
-- **Asignatura:** Desarrollo Web
-- **Docente:** Irina Fong
-- **Proyecto:** Sistema de Registro de Aspirantes
-- **Repositorio:** [GitHub - lab3](https://github.com/Neiel003/lab3)
+## 10. Conclusión
 
-## 12. Referencias
+Con este laboratorio pude practicar cómo organizar un proyecto web, crear un formulario y procesar la información utilizando PHP. También pude identificar la importancia de probar el sistema con información válida e incorrecta para comprobar su comportamiento.
+
+Además, documentar el proyecto en un README permite explicar cómo instalarlo, cómo está organizado y cuáles fueron los resultados obtenidos. Incluir las capturas de pantalla facilita mostrar las evidencias del trabajo directamente desde GitHub y ayuda a que otras personas puedan comprender el funcionamiento del proyecto.
+
+## Referencias
 
 - Apache Friends. (s. f.). *XAMPP*. https://www.apachefriends.org/
 - Git. (s. f.). *Git documentation*. https://git-scm.com/doc
@@ -262,8 +227,10 @@ Las capturas incluidas permiten documentar el formulario y los resultados obteni
 - PHP. (s. f.). *PHP Manual*. https://www.php.net/manual/es/
 - WampServer. (s. f.). *WampServer*. https://www.wampserver.com/
 
-## 13. Conclusión
+##  Autor
 
-Con este laboratorio pude practicar cómo organizar un proyecto web, crear un formulario y procesar la información utilizando PHP. También pude identificar la importancia de probar el sistema con información válida e incorrecta para comprobar su comportamiento.
-
-Además, documentar el proyecto en un README permite explicar cómo instalarlo, cómo está organizado y cuáles fueron los resultados obtenidos. Incluir las capturas de pantalla facilita mostrar las evidencias del trabajo directamente desde GitHub y ayuda a que otras personas puedan comprender el funcionamiento del proyecto.
+- **Estudiante:** Vasti Legaspi
+- **Asignatura:** Desarrollo Web
+- **Docente:** Irina Fong
+- **Proyecto:** Sistema de Registro de Aspirantes
+- **Repositorio:** [GitHub - lab3](https://github.com/Neiel003/lab3)
